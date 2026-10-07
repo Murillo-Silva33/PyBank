@@ -37,3 +37,19 @@ Currently, the project uses:
 In addition to developing a functional banking system, this repository serves as a record of our progress in learning Python.
 
 New concepts and features will be added as we advance in our studies.
+
+## Development Team
+
+This project is collaboratively developed by two students learning Python.
+
+**Developer 1 — Murillo**
+- Main menu
+- Balance inquiry
+- Deposit system
+
+**Developer 2 — Guilherme Damim**
+- Withdrawal system
+- Transaction history
+- Input validation
+
+Both developers are responsible for testing, debugging, and improving the project.
