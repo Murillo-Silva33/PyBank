@@ -1,6 +1,6 @@
 # PyBank
 
-🇺🇸 English | [🇧🇷 Português](README-pt-BR.md)
+🇺🇸 English | [🇧🇷 Português](README-pt-br.md)
 
 A banking system developed in Python to apply fundamental programming concepts and progressively evolve with new concepts and features.
 
