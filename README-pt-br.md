@@ -1,4 +1,4 @@
-🇺🇸 English (README-pt-br.md) | 🇧🇷 Português
+🇺🇸 English (README.md) | 🇧🇷 Português
 # PyBank
 Sistema bancário desenvolvido em Python para aplicar fundamentos da linguagem e evoluir progressivamente com novos conceitos e funcionalidades.
 ## Sobre o Projeto
