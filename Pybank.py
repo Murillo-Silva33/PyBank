@@ -4,7 +4,7 @@ password = "admin123"
 balance = float(1000)
 deposit = float()
 selection = int()
-print("=======PyBank=======\n       Sing in\n")
+print("=======PyBank=======\n     Sing in\n")
 for i in range(3):
     insert_username = input("Insert your username\n")
     insert_passoword = input("Insert your password\n")
@@ -45,6 +45,13 @@ for i in range(3):
                         os.system("clear")                    
                     print("Thank you for using PyBank\n Exiting...")
                     break
+                case _:
+                    if os.name == "nts":
+                        os.system("cls")
+                    else:
+                        os.system("clear")
+                    print("Invalid option! Please try again.")
+                    input("Press enter to main menu..")
     else:
         print("Incorrect username or password. Please try again.")
 print("Maximum number of attempts exceeded. Please try again later.")
