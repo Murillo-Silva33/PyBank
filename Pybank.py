@@ -4,12 +4,12 @@ password = "admin123"
 balance = float(1000)
 deposit = float()
 selection = int()
-print("=======PyBank=======\n     Sing in\n")
+print("="*7, "PyBank", "="*7, "\n       Sign In\n")
 for i in range(3):
     insert_username = input("Insert your username\n")
-    insert_passoword = input("Insert your password\n")
+    insert_password = input("Insert your password\n")
 
-    if insert_username == username and insert_passoword == password:
+    if insert_username == username and insert_password == password:
         if os.name == "nts":
             os.system("cls")
         else:
@@ -23,7 +23,8 @@ for i in range(3):
                     else:
                         os.system("clear")
                     print("=======PyBank=======\nBalance:", balance)
-                    input("Press enter to main menu...")
+                    input("Press enter to return to the main menu...")
+                    
                 case 2:
                     if os.name == "nts":
                         os.system("cls")
@@ -32,19 +33,19 @@ for i in range(3):
                     print("=======PyBank Deposit=======")
                     deposit = float(input("Enter the amount you want to deposit: R$"))
 
-                    if deposit < 0:
+                    if deposit <= 0:
                         print("Invalid deposit amount!")
                     else: 
                         balance = balance + deposit
-                        print("Deposit sucefull\n Current Balance: R$", balance)
-                    input("Press enter to main menu...")
+                        print("Deposit sucessfull!\n Current Balance: R$", balance)
+                    input("Press enter to return to the main menu...")
                 case 6:
                     if os.name == "nts":
                         os.system("cls")
                     else:
                         os.system("clear")                    
                     print("Thank you for using PyBank\n Exiting...")
-                    break
+                    raise SystemExit
                 case _:
                     if os.name == "nts":
                         os.system("cls")
@@ -54,4 +55,4 @@ for i in range(3):
                     input("Press enter to main menu..")
     else:
         print("Incorrect username or password. Please try again.")
-print("Maximum number of attempts exceeded. Please try again later.")
+    print("Maximum number of attempts exceeded. Please try again later.")
