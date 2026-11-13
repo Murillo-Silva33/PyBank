@@ -22,11 +22,11 @@ Currently, the project uses:
 
 ## Features
 
-- [ ] Check account balance
-- [ ] Make deposits
-- [ ] Make withdrawals
-- [ ] View transaction history
-- [ ] Password authentication system
+- [x] Check account balance
+- [x] Make deposits
+- [x] Make withdrawals
+- [x] View transaction history
+- [x] Password authentication system
 
 ## Technologies
 
